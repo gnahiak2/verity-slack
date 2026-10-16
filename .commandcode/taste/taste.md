@@ -1,0 +1,2 @@
+- For Slack app development, prefers TypeScript with the official Bolt.js SDK (@slack/bolt) over Python/Bolt.py or raw HTTP + Web API. Confidence: 0.5
+- Communicates in terse, low-context messages — often just a bare URL or a few words — expecting the agent to fetch/read the linked source itself and infer the rest rather than handing over a written spec. Confidence: 0.5
