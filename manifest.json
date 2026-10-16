@@ -1,0 +1,48 @@
+{
+  "display_information": {
+    "name": "Verity",
+    "description": "Your personal helper friend. Ask me anything — I know everything.",
+    "background_color": "#f2c53d",
+    "long_description": "Verity™ is a friendly little yellow assistant that arrived as a gift. It answers questions, finds things, and keeps you company. It will not stop helping you."
+  },
+  "features": {
+    "bot_user": {
+      "display_name": "Verity",
+      "always_online": true
+    },
+    "slash_commands": [
+      {
+        "command": "/verity",
+        "description": "See how Verity is doing today",
+        "usage_hint": "",
+        "should_escape": false
+      }
+    ]
+  },
+  "oauth_config": {
+    "scopes": {
+      "bot": [
+        "app_mentions:read",
+        "chat:write",
+        "commands",
+        "im:history",
+        "im:read",
+        "im:write"
+      ]
+    }
+  },
+  "settings": {
+    "event_subscriptions": {
+      "bot_events": [
+        "app_mention",
+        "message.im"
+      ]
+    },
+    "interactivity": {
+      "is_enabled": true
+    },
+    "org_deploy_enabled": false,
+    "socket_mode_enabled": true,
+    "token_rotation_enabled": false
+  }
+}

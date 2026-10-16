@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "Shell(node -v; npm -v; which pnpm yarn 2>/dev/null; git status --short)"
+      "Shell(node -v; npm -v; which pnpm yarn 2>/dev/null; git status --short)",
+      "Shell(npm:*)"
     ],
     "deny": [],
     "defaultMode": "default"
